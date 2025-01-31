@@ -1,0 +1,77 @@
+/* style.css */
+
+/* Basic reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #047ef8;
+    color: #850808;
+}
+
+.container {
+    background-color: #d61696;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+    border: 2px solid #fff;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+input {
+    width: 90%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #2f0635;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+
+button {
+    width: 90%;
+    padding: 12px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #850808;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+@media (max-width: 400px) {
+    .container {
+        width: 90%;
+    }
+}
